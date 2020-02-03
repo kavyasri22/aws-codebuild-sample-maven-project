@@ -8,8 +8,6 @@ phases:
     commands:
       - java -version
       - echo Build started on `date`
-      - mvn clean install
-      - mvn test
   post_build:
     commands:
       - echo Build completed on `date`
