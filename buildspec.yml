@@ -4,6 +4,8 @@ phases:
   install:
     runtime-versions:
       java: corretto11
+    commands:
+      - yum install maven -y
   build:
     commands:
       - java -version
